@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Your CSS selector */
+    .carousel .list .item:nth-child(2) .buttons {
+      /* Your styles go here */
+      background-color: red;
+      font-weight: bold;
+    }
+  </style>
+  <title>CSS Selector Example</title>
+</head>
+<body>
+
+<!-- HTML Structure -->
+<div class="carousel">
+  <div class="list">
+    <div class="item">
+      <p>Item 1</p>
+      <div class="buttons">
+        <button>Button 1</button>
+        <button>Button 2</button>
+      </div>
+    </div>
+    <div class="item">
+      <p>Item 2</p>
+      <!-- The .buttons inside this .item will be styled -->
+      <div class="buttons">
+        <button>Button 3</button>
+        <button>Button 4</button>
+      </div>
+    </div>
+    <div class="item">
+      <p>Item 3</p>
+      <div class="buttons">
+        <button>Button 5</button>
+        <button>Button 6</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
